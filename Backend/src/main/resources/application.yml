@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/smartcity
+    username: postgres
+    password: jihene
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+jwt:
+  secret-key: ${JWT_SECRET}
+  expiration: 900000
+  refresh-expiration: 604800000
+
+app:
+  upload-dir: uploads
+
+ai:
+  openrouter:
+    base-url: https://openrouter.ai/api/v1
+    api-key: ${OPENROUTER_API_KEY}
+
+    classification-model: openai/gpt-oss-20b
+    vision-model: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free

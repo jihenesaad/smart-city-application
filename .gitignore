@@ -1,0 +1,125 @@
+# =========================
+# IDE / Editors
+# =========================
+
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Java / Spring Boot
+# =========================
+
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+build/
+
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Spring Boot generated files
+application-local.yml
+application-dev.yml
+
+
+# =========================
+# Maven
+# =========================
+
+.mvn/
+!mvnw
+!mvnw.cmd
+
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+*.properties
+
+
+# =========================
+# React
+# =========================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+out/
+
+.angular/
+.cache/
+
+
+# =========================
+# Flutter
+# =========================
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+
+build/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+.flutter-version
+
+ios/Pods/
+ios/.symlinks/
+
+android/.gradle/
+android/local.properties
+
+
+# =========================
+# Flutter generated files
+# =========================
+
+*.lock
+
+
+# =========================
+# Uploads / User files
+# =========================
+
+uploads/
+upload/
+
+
+
+# =========================
+# Database files
+# =========================
+
+*.db
+
+
+
